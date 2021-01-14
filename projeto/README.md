@@ -4,3 +4,7 @@ Este padrão pode ser utilizado quando há diversos possíveis algoritmos para u
 
 O Strategy é um padrão de projeto comportamental que permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
 
+
+**Chain of Responsibility**
+
+O Chain of Responsibility é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente.

@@ -1,5 +1,6 @@
 <?php
 
+use Alura\DesignPattern\CalculadoraDeDescontos;
 use Alura\DesignPattern\CalculadoraDeImpostos;
 use Alura\DesignPattern\Impostos\Icms;
 use Alura\DesignPattern\Impostos\Iss;
@@ -14,3 +15,11 @@ $orcamento->valor = 100;
 
 echo $calculadora->calcula($orcamento, new Icms()) . PHP_EOL;
 echo $calculadora->calcula($orcamento, new Iss()) . PHP_EOL;
+
+
+$calculadora = new CalculadoraDeDescontos();
+$orcamento = new Orcamento();
+$orcamento->valor = 200;
+$orcamento->quantidadeItens = 7;
+
+echo $calculadora->calculaDescontos($orcamento) . PHP_EOL;
