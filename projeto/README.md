@@ -1,3 +1,6 @@
+**Design Patterns: Padrões Comportamentais**
+
+
 **Strategy**
 
 Este padrão pode ser utilizado quando há diversos possíveis algoritmos para uma ação. Nele, nós separamos cada um dos possíveis algoritmos em classes separadas.
@@ -18,3 +21,8 @@ O Template Method é um padrão de projeto comportamental que define o esqueleto
 **State**
 
 O State é um padrão de projeto comportamental que permite que um objeto altere seu comportamento quando seu estado interno muda. Parece como se o objeto mudasse de classe.
+
+
+**Command // (ver também CommandHandler)**
+
+O Command é um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte operações que não podem ser feitas.
