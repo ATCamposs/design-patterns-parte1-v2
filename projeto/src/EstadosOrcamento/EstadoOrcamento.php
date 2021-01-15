@@ -7,7 +7,7 @@ use DomainException;
 
 abstract class EstadoOrcamento
 {
-    /* @throws DomainException*/
+    /** @throws DomainException */
     abstract public function calculaDescontoExtra(Orcamento $orcamento): float;
 
     public function aprova(Orcamento $orcamento)
