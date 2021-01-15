@@ -8,3 +8,8 @@ O Strategy é um padrão de projeto comportamental que permite que você defina 
 **Chain of Responsibility**
 
 O Chain of Responsibility é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente.
+
+
+**Template Method**
+
+O Template Method é um padrão de projeto comportamental que define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura.
