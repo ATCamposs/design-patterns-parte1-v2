@@ -13,3 +13,8 @@ O Chain of Responsibility é um padrão de projeto comportamental que permite qu
 **Template Method**
 
 O Template Method é um padrão de projeto comportamental que define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura.
+
+
+**State**
+
+O State é um padrão de projeto comportamental que permite que um objeto altere seu comportamento quando seu estado interno muda. Parece como se o objeto mudasse de classe.
