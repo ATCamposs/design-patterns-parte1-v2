@@ -26,3 +26,9 @@ O State é um padrão de projeto comportamental que permite que um objeto altere
 **Command // (ver também CommandHandler)**
 
 O Command é um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte operações que não podem ser feitas.
+
+
+**Observer**
+O Observer é um padrão de projeto comportamental que permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
+
+https://www.php.net/manual/pt_BR/class.splobserver.php
